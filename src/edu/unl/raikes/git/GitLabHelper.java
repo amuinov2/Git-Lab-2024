@@ -10,6 +10,6 @@ public class GitLabHelper {
     }
 
     public void PrintWelcomeMessage() {
-        System.out.printf("Git lab by: %s and %s", person1, person2);
+        System.out.printf("Git lab by: %s", Arrays.toString(persons));
     }
 }
